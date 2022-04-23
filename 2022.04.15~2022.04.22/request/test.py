@@ -7,7 +7,7 @@ from logging import root
 from re import U
 from site import USER_BASE
 from sqlite3 import dbapi2
-from unicodedata import name
+from unicodedata import name 
 from sqlalchemy import Column, String, column, create_engine, table
 import sqlalchemy
 from sqlalchemy.orm import sessionmaker
